@@ -5,11 +5,12 @@ import horror from "../data/books/horror.json";
 import history from "../data/books/history.json";
 import fantasy from "../data/books/fantasy.json";
 import romance from "../data/books/romance.json";
+import firstBook from "../data/books/firstBook.json";
 import "../../src/App.css";
 
 class AllTheBooks extends Component {
   state = {
-    selectedBooks: horror,
+    selectedBooks: firstBook,
   };
 
   render() {

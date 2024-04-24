@@ -27,3 +27,26 @@ svg {
   font-weight: 600;
   font-size: 1.2em;
 }
+.container-img-singleBook {
+  max-width: fit-content;
+  max-height: fit-content;
+}
+
+.active {
+  border: 3px solid rgb(0, 150, 0);
+}
+.inactive {
+  border: 3px solid rgba(0, 150, 0, 0.194);
+}
+.searchContainer {
+  margin-bottom: 20px;
+}
+.search {
+  width: 50vw !important;
+  text-align: center;
+}
+.ct-books {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

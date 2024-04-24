@@ -35,7 +35,6 @@ let MyNav = () => {
           />
         </svg>
         <h1 className="fw-bold mb-4 mt-2">EpiBooks</h1>
-        <h2 className="mb-5">Choose your favorite categories.</h2>
       </div>
     </>
   );
